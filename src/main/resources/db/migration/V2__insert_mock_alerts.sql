@@ -1,0 +1,7 @@
+INSERT INTO alerts (id, cep, street_name, number, risk_level, recommendation, active, created_at) VALUES
+  ('a1b2c3d4-e5f6-7890-abcd-ef1234567890', '01310-100', 'Avenida Paulista', 1578, 'HIGH', 'Evite exposição ao sol entre 10h e 16h. Hidrate-se frequentemente e use protetor solar FPS 50+.', true, '2026-01-15 09:30:00'),
+  ('b2c3d4e5-f6a7-8901-bcde-f12345678901', '04038-001', 'Rua Domingos de Morais', 342, 'MEDIUM', 'Recomenda-se o uso de roupas leves e chapéu. Evite atividades físicas intensas ao ar livre.', true, '2026-02-20 11:00:00'),
+  ('c3d4e5f6-a7b8-9012-cdef-123456789012', '01222-010', 'Rua da Consolação', 890, 'EXTREME', 'Situação crítica de calor extremo. Permaneça em ambientes climatizados, beba pelo menos 3 litros de água por dia e procure atendimento médico se sentir tontura ou mal-estar.', true, '2026-03-05 13:45:00'),
+  ('d4e5f6a7-b8c9-0123-defa-234567890123', '05407-002', 'Rua Teodoro Sampaio', 1200, 'LOW', 'Temperatura elevada, mas dentro da faixa tolerável. Mantenha-se hidratado e prefira ambientes ventilados.', true, '2026-04-10 08:15:00'),
+  ('e5f6a7b8-c9d0-1234-efab-345678901234', '02013-000', 'Avenida Cruzeiro do Sul', 455, 'HIGH', 'Alto risco de insolação. Crianças, idosos e gestantes devem redobrar os cuidados. Busque pontos de hidratação gratuitos disponíveis na região.', true, '2026-05-18 14:00:00')
+;
