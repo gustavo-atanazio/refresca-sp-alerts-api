@@ -6,6 +6,11 @@ O **Refresca SP** é uma iniciativa de CitizenTech desenvolvida para mitigar os 
 
 Desenvolvida com base nos princípios de Arquitetura Orientada a Serviços (SOA), esta API RESTful é responsável pela gestão e distribuição dos **alertas meteorológicos e de calor extremo**. O microsserviço processa informações climáticas, classifica a gravidade térmica em níveis de risco (`LOW`, `MEDIUM`, `HIGH`, `EXTREME`), gera recomendações preventivas de saúde e expõe esses dados de forma padronizada para que aplicações clientes (como aplicativos móveis e painéis de monitoramento) possam alertar o cidadão tempestivamente.
 
+## Pré-requisitos
+
+- **Docker:** Necessário para provisionar e orquestrar automaticamente o contêiner do banco de dados relacional via integração com Spring Boot Docker Compose.
+- **Java 25:** Versão do Java Development Kit (JDK) exigida para compilação e execução da aplicação.
+
 ## Como rodar o projeto
 
 ```bash
@@ -202,11 +207,6 @@ Realiza a exclusão lógica (*soft delete*) de um alerta, alterando seu estado `
     - `id` (string, obrigatório): Identificador único do alerta a ser inativado.
 - **Dados de saída:**
   - **Status:** `204 No Content` (sem corpo de resposta).
-
-## Pré-requisitos
-
-- **Docker:** Necessário para provisionar e orquestrar automaticamente o contêiner do banco de dados relacional via integração com Spring Boot Docker Compose.
-- **Java 25:** Versão do Java Development Kit (JDK) exigida para compilação e execução da aplicação.
 
 ## Pacotes Spring e tecnologias utilizadas
 
